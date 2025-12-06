@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.zd3_1_leshukovdenis"
-        minSdk = 21
+        minSdk = 24
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
@@ -41,5 +41,5 @@ dependencies {
     implementation("androidx.media2:media2-widget:1.2.1")
     implementation("com.google.android.material:material:1.13.0")
     implementation("androidx.constraintlayout:constraintlayout:2.2.1")
-    implementation(libs.androidx.activity)
+
 }
